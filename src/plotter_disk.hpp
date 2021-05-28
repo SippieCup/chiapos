@@ -169,7 +169,7 @@ public:
 #ifdef GIT_COMMIT_HASH
         std::cout << " - " << GIT_COMMIT_HASH;
 #endif
-        std::cout << std::endl
+        std::cout << std::endl;
         std::cout << "Process ID is: " << ::getpid() << std::endl;
 
         // Cross platform way to concatenate paths, gulrak library.
